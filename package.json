@@ -1,0 +1,19 @@
+{
+  "name": "jennics-sg.github.io",
+  "version": "1.0.0",
+  "description": "Portfolio Site for Jimy Houlbrook",
+  "main": "index.js",
+  "scripts": {
+    "build": "npx webpack",
+    "build -w": "npx webpack --watch"
+  },
+  "author": "Jimy Houlbrook",
+  "license": "ISC",
+  "devDependencies": {
+    "pixi.js": "^7.3.0",
+    "ts-loader": "^9.4.4",
+    "typescript": "^5.2.2",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4"
+  }
+}
