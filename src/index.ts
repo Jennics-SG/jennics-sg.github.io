@@ -12,3 +12,5 @@ export default class Main{
         });
     }
 }
+
+document.addEventListener('DOMContentLoaded', () => new Main);

@@ -4270,7 +4270,7 @@ eval("\n\nvar GetIntrinsic = __webpack_require__(/*! get-intrinsic */ \"./node_m
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 "use strict";
-eval("\nObject.defineProperty(exports, \"__esModule\", ({ value: true }));\nconst pixi_js_1 = __webpack_require__(/*! pixi.js */ \"./node_modules/pixi.js/lib/index.js\");\nclass Main {\n    constructor() {\n        this.app = new pixi_js_1.Application({\n            height: 500,\n            width: 500,\n            hello: true,\n            view: document.getElementById(\"pixi\")\n        });\n    }\n}\nexports[\"default\"] = Main;\n\n\n//# sourceURL=webpack://jennics-sg.github.io/./src/index.ts?");
+eval("\nObject.defineProperty(exports, \"__esModule\", ({ value: true }));\nconst pixi_js_1 = __webpack_require__(/*! pixi.js */ \"./node_modules/pixi.js/lib/index.js\");\nclass Main {\n    constructor() {\n        this.app = new pixi_js_1.Application({\n            height: 500,\n            width: 500,\n            hello: true,\n            view: document.getElementById(\"pixi\")\n        });\n    }\n}\nexports[\"default\"] = Main;\ndocument.addEventListener('DOMContentLoaded', () => new Main);\n\n\n//# sourceURL=webpack://jennics-sg.github.io/./src/index.ts?");
 
 /***/ }),
 
