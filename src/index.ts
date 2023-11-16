@@ -54,8 +54,8 @@ export default class Application {
         ){
             this.velocity.x *= -1;
         } else if (
-            text.y + text.height / 2 >= this.app.view.height ||
-            text.y - text.height / 2 <= 0
+            text.y + text.height / 4 >= this.app.view.height ||
+            text.y - text.height / 4 <= 0
         ){
             this.velocity.y *= -1
         }
