@@ -17,6 +17,7 @@ export default class Application {
             width: 1080,
             backgroundColor: 0x000000,
             hello: true,
+            resizeTo: window,
             view: <HTMLCanvasElement>document.getElementById('pixi')
         });
 
