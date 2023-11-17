@@ -38,7 +38,7 @@ export default class Application {
 
         const text : PIXI.Text = new PIXI.Text("Bounce", textStyle);
         text.anchor.set(0.5);
-        text.position.set(this.app.view.width / 2, this.app.view.height / 2);
+        text.position.set(this.app.view.width / 2, this.app.view.height / 4);
         this.app.stage.addChild(text);
 
         this.app.ticker.add( () => this.delta(text));
